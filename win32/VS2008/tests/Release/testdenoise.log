@@ -1,0 +1,8 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Common.props(144,5): warning MSB4211: The property "WindowsTargetPlatformVersion" is being set to a value for the first time, but it was already consumed at "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Cpp.WindowsSDK.props (29,5)".
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (testecho.vcxproj, testresample.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1198,5): warning MSB8012: TargetPath(C:\workspace\bebo\speexdsp\win32\VS2008\tests\Release\testdenoise.exe) does not match the Linker's OutputFile property value (C:\workspace\bebo\speexdsp\bin\testdenoise.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+testdenoise.obj : error LNK2001: unresolved external symbol _speex_preprocess_state_init
+testdenoise.obj : error LNK2001: unresolved external symbol _speex_preprocess_run
+testdenoise.obj : error LNK2001: unresolved external symbol _speex_preprocess_ctl
+testdenoise.obj : error LNK2001: unresolved external symbol _speex_preprocess_state_destroy
+../../../bin/testdenoise.exe : fatal error LNK1120: 4 unresolved externals

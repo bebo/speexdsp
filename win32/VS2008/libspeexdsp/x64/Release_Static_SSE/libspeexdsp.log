@@ -1,0 +1,52 @@
+﻿cl : Command line warning D9002: ignoring unknown option '/arch:SSE'
+  buffer.c
+C:\workspace\bebo\speexdsp\win32\config.h(8): warning C4005: '_USE_SSE': macro redefinition
+  C:\workspace\bebo\speexdsp\win32\config.h(8): note: command-line arguments:  see previous definition of '_USE_SSE'
+  fftwrap.c
+C:\workspace\bebo\speexdsp\win32\config.h(8): warning C4005: '_USE_SSE': macro redefinition
+  C:\workspace\bebo\speexdsp\win32\config.h(8): note: command-line arguments:  see previous definition of '_USE_SSE'
+  filterbank.c
+C:\workspace\bebo\speexdsp\win32\config.h(8): warning C4005: '_USE_SSE': macro redefinition
+  C:\workspace\bebo\speexdsp\win32\config.h(8): note: command-line arguments:  see previous definition of '_USE_SSE'
+  jitter.c
+C:\workspace\bebo\speexdsp\win32\config.h(8): warning C4005: '_USE_SSE': macro redefinition
+  C:\workspace\bebo\speexdsp\win32\config.h(8): note: command-line arguments:  see previous definition of '_USE_SSE'
+..\..\..\libspeexdsp\jitter.c(445): warning C4018: '<': signed/unsigned mismatch
+..\..\..\libspeexdsp\jitter.c(692): warning C4018: '<': signed/unsigned mismatch
+  kiss_fft.c
+C:\workspace\bebo\speexdsp\win32\config.h(8): warning C4005: '_USE_SSE': macro redefinition
+  C:\workspace\bebo\speexdsp\win32\config.h(8): note: command-line arguments:  see previous definition of '_USE_SSE'
+..\..\..\libspeexdsp\kiss_fft.c(311): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\..\libspeexdsp\kiss_fft.c(416): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\..\libspeexdsp\kiss_fft.c(471): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  kiss_fftr.c
+C:\workspace\bebo\speexdsp\win32\config.h(8): warning C4005: '_USE_SSE': macro redefinition
+  C:\workspace\bebo\speexdsp\win32\config.h(8): note: command-line arguments:  see previous definition of '_USE_SSE'
+..\..\..\libspeexdsp\kiss_fftr.c(48): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  mdf.c
+C:\workspace\bebo\speexdsp\win32\config.h(8): warning C4005: '_USE_SSE': macro redefinition
+  C:\workspace\bebo\speexdsp\win32\config.h(8): note: command-line arguments:  see previous definition of '_USE_SSE'
+  preprocess.c
+C:\workspace\bebo\speexdsp\win32\config.h(8): warning C4005: '_USE_SSE': macro redefinition
+  C:\workspace\bebo\speexdsp\win32\config.h(8): note: command-line arguments:  see previous definition of '_USE_SSE'
+  resample.c
+C:\workspace\bebo\speexdsp\win32\config.h(8): warning C4005: '_USE_SSE': macro redefinition
+  C:\workspace\bebo\speexdsp\win32\config.h(8): note: command-line arguments:  see previous definition of '_USE_SSE'
+c:\workspace\bebo\speexdsp\libspeexdsp\resample_sse.h(45): warning C4018: '<': signed/unsigned mismatch
+c:\workspace\bebo\speexdsp\libspeexdsp\resample_sse.h(62): warning C4018: '<': signed/unsigned mismatch
+c:\workspace\bebo\speexdsp\libspeexdsp\resample_sse.h(84): warning C4018: '<': signed/unsigned mismatch
+c:\workspace\bebo\speexdsp\libspeexdsp\resample_sse.h(110): warning C4018: '<': signed/unsigned mismatch
+..\..\..\libspeexdsp\resample.c(674): warning C4018: '<': signed/unsigned mismatch
+..\..\..\libspeexdsp\resample.c(946): warning C4018: '<': signed/unsigned mismatch
+..\..\..\libspeexdsp\resample.c(949): warning C4018: '<': signed/unsigned mismatch
+..\..\..\libspeexdsp\resample.c(1002): warning C4018: '<': signed/unsigned mismatch
+..\..\..\libspeexdsp\resample.c(1009): warning C4018: '<': signed/unsigned mismatch
+..\..\..\libspeexdsp\resample.c(1019): warning C4018: '<': signed/unsigned mismatch
+  scal.c
+C:\workspace\bebo\speexdsp\win32\config.h(8): warning C4005: '_USE_SSE': macro redefinition
+  C:\workspace\bebo\speexdsp\win32\config.h(8): note: command-line arguments:  see previous definition of '_USE_SSE'
+  smallft.c
+C:\workspace\bebo\speexdsp\win32\config.h(8): warning C4005: '_USE_SSE': macro redefinition
+  C:\workspace\bebo\speexdsp\win32\config.h(8): note: command-line arguments:  see previous definition of '_USE_SSE'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1371,5): warning MSB8012: TargetPath(C:\workspace\bebo\speexdsp\win32\VS2008\x64\Release_Static_SSE\libspeexdsp.lib) does not match the Library's OutputFile property value (C:\workspace\bebo\speexdsp\lib\libspeexdsp.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  libspeexdsp.vcxproj -> C:\workspace\bebo\speexdsp\win32\VS2008\x64\Release_Static_SSE\libspeexdsp.lib
